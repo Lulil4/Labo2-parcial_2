@@ -20,7 +20,10 @@ namespace Entidades.SP
                 return "Manzana";
             }
         }
+        public Manzana() : this("vacio", 0, "vacio")
+        {
 
+        }
         public Manzana (string color, double peso, string provincia) : base(color, peso)
         {
             this._provinciaOrigen = provincia;
@@ -67,11 +70,11 @@ namespace Entidades.SP
 
             try
             {
-                XmlSerializer DesSerializador = new XmlSerializer(typeof(Fruta));
+                XmlSerializer DesSerializador = new XmlSerializer(typeof(Manzana));
 
                 using (System.IO.TextReader MiLector = new System.IO.StreamReader(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + path))
                 {
-                    f = (Fruta)DesSerializador.Deserialize(MiLector);
+                    f = (Manzana)DesSerializador.Deserialize(MiLector);
                 }
 
             }
