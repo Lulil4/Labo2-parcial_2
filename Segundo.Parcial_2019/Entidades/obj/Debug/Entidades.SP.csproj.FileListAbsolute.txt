@@ -4,3 +4,10 @@ D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csprojAssembly
 D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
 D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.dll
 D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\Entidades\bin\Debug\Entidades.dll.config

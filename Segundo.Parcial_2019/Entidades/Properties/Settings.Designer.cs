@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SP.Properties {
+namespace Entidades.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

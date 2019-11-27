@@ -18,12 +18,14 @@ using System.Xml.Serialization;
 //(+) Será el encargado de agregar elementos al cajón, siempre y cuando no supere la capacidad del mismo.
 namespace Entidades.SP
 {
-    //xml include?
+    [XmlInclude(typeof(Manzana))]
+
     public class Cajon<T> : ISerializar
     {
         protected int _capacidad;
         protected List<T> _elementos;
         protected double _precioUnitario;
+        [XmlIgnore]
         public EventoPrecio _eventoPrecio;
         public delegate void EventoPrecio(double precio, Cajon<T> cajon);
 
@@ -80,6 +82,7 @@ namespace Entidades.SP
 
             foreach(T elemento in this._elementos)
             {
+                cajon.AppendLine();
                 cajon.AppendLine(elemento.ToString());
             }
 
@@ -113,6 +116,10 @@ namespace Entidades.SP
             if (cajon._elementos.Count < cajon._capacidad)
             {
                 cajon.Elementos.Add(elemento);
+            }
+            else
+            {
+                throw new CajonLlenoException();
             }
 
             return cajon;

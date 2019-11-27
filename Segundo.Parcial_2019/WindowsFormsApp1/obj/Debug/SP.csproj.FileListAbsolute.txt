@@ -21,3 +21,17 @@ D:\###Morel\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.pdb
 D:\###Morel\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\Entidades.dll
 D:\###Morel\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\Entidades.pdb
 D:\###Morel\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.CopyComplete
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.exe.config
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.exe
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\Entidades.dll
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\Entidades.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csprojAssemblyReference.cache
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.SegundoParcial.resources
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.Properties.Resources.resources
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.GenerateResource.cache
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.CoreCompileInputs.cache
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.CopyComplete
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.exe
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.pdb
+C:\Users\Lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\Entidades.dll.config

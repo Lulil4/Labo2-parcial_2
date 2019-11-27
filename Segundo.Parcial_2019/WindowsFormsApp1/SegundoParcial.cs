@@ -153,11 +153,14 @@ namespace SP
         {
             //Asociar manejador de eventos y crearlo en la clase Manejadora (de instancia).
 
-            this.c_bananas._eventoPrecio += new Cajon<Banana>.EventoPrecio(Manejadora<Banana>.ManejadorEventoPrecio);
-            this.c_manzanas._eventoPrecio += new Cajon<Manzana>.EventoPrecio(Manejadora<Manzana>.ManejadorEventoPrecio);
+            Manejadora <Banana> manejador = new Manejadora<Banana>();
 
-            this.c_bananas += new Banana("verde", 2, "argentina");
-            this.c_bananas += new Banana("amarilla", 4, "ecuador");
+            this.c_bananas._eventoPrecio += new Cajon<Banana>.EventoPrecio(manejador.ManejadorEventoPrecio);
+
+                this.c_bananas += new Banana("verde", 2, "argentina");
+                this.c_bananas += new Banana("amarilla", 4, "ecuador");
+
+                double p = this.c_bananas.PrecioTotal;
         }
 
         //Obtener de la base de datos (sp_lab_II) el listado de frutas:
@@ -190,66 +193,111 @@ namespace SP
         //FALSE, si no se elimino.
         //Excepción, si se probocó algún error en la base de datos
         private void btnPunto8_Click(object sender, EventArgs e)
-        {/*
+        {
             //implementar manejo de excepciones
-            if (this.c_manzanas.EliminarFruta(1))
+            try
             {
-                MessageBox.Show("Se ha eliminado la fruta de la base de datos");
+                if (this.c_manzanas.EliminarFruta(7))
+                {
+                    MessageBox.Show("Se ha eliminado la fruta de la base de datos");
+                }
+                else
+                {
+                    MessageBox.Show("No se ha eliminado la fruta de la base de datos");
+                }
             }
-            else
+            catch(Exception error)
             {
-                MessageBox.Show("No se ha eliminado la fruta de la base de datos");
+                MessageBox.Show(error.Message);
             }
-
             //implementar manejo de excepciones
-            if (this.c_manzanas.EliminarFruta(1))
+            try
             {
-                MessageBox.Show("Se ha eliminado la fruta de la base de datos");
+                if (this.c_manzanas.EliminarFruta(7))
+                {
+                    MessageBox.Show("Se ha eliminado la fruta de la base de datos");
+                }
+                else
+                {
+                    MessageBox.Show("No se ha eliminado la fruta de la base de datos");
+                }
             }
-            else
+            catch (Exception error)
             {
-                MessageBox.Show("No se ha eliminado la fruta de la base de datos");
-            }*/
-
+                MessageBox.Show(error.Message);
+            }
         }
         //frutas { id(autoincremental - numérico) - nombre(cadena) - peso(numérico) - precio(numérico) }. 
         private static string ObtenerListadoFrutas()
         {
-             SqlConnection conector;
-             SqlCommand comando;
-             SqlDataReader miLector;
+            SqlConnection conector = new SqlConnection(Properties.Settings.Default.Conexion);
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader miLector;
             StringBuilder datosEnDB = new StringBuilder();
-            datosEnDB.AppendLine("Error");
 
             try
             {
-                conector = new SqlConnection(Properties.Settings.Default.Conexion);
+               
+                conector.Open();
 
-                comando = new SqlCommand();
                 comando.Connection = conector;
                 comando.CommandType = CommandType.Text;
-                comando.CommandText = "SELECT TOP 1000[id],[nombre],[peso],[precio]FROM[personas_bd].[dbo].[personas]";
+                comando.CommandText = "SELECT TOP(1000)[id],[nombre],[peso],[precio]FROM[sp_lab_II].[dbo].[frutas]";
 
                 miLector = comando.ExecuteReader();
 
                 while (miLector.Read() != false)
                 {
-                    datosEnDB.AppendLine(miLector[1].ToString() + miLector[2].ToString() + miLector[3] + miLector[4]);
+                    datosEnDB.AppendLine("Id: " + miLector[0].ToString() + "| Nombre: " + miLector[1].ToString() + "| Peso:" + miLector[2] + "| Precio: " + miLector[3]);
                 }
-
-                conector.Close();
 
             }
             catch(Exception e)
             {
+                datosEnDB.AppendLine("Error");
+                MessageBox.Show(e.Message);
             }
-
+            finally
+            {
+                conector.Close();
+            }
             return datosEnDB.ToString();
         }
-
+        //Agregar en la base de datos las frutas del formulario (_manzana, _banana y _durazno).
         private static bool AgregarFrutas(SegundoParcial frm)
         {
-            throw new NotImplementedException();
+            bool seAgrego = false;
+
+            SqlConnection conector = new SqlConnection(Properties.Settings.Default.Conexion);
+            SqlCommand comando = new SqlCommand();
+
+            try
+            {
+                conector.Open();
+
+                comando.Connection = conector;
+                comando.CommandType = CommandType.Text;
+
+                StringBuilder unosComandos = new StringBuilder();
+                unosComandos.AppendLine("insert into [sp_lab_II].[dbo].[frutas] values ('" + frm._manzana.Nombre + "', " + 12.9 + ", " + frm._manzana.Peso + ")");
+                unosComandos.AppendLine("insert into [sp_lab_II].[dbo].[frutas] values ('" + frm._banana.Nombre + "', " + 13.6 + ", " + frm._banana.Peso + ")");
+                unosComandos.AppendLine("insert into [sp_lab_II].[dbo].[frutas]  values ('" + frm._durazno.Nombre + "', " + 14.8 + ", " + frm._durazno.Peso + ")");
+
+                comando.CommandText = unosComandos.ToString();
+
+                comando.ExecuteNonQuery();
+
+                seAgrego = true;
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error");
+            }
+            finally
+            {
+                conector.Close();
+            }
+            return seAgrego;
         }
 
     }

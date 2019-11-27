@@ -13,6 +13,9 @@ namespace Entidades.SP
     {
         protected string _provinciaOrigen;
 
+        public string ProvinciaOrigen
+        { get { return this._provinciaOrigen; } set { this._provinciaOrigen = value; } }
+
         public string Nombre
         {
             get
@@ -22,8 +25,8 @@ namespace Entidades.SP
         }
         public Manzana() : this("vacio", 0, "vacio")
         {
-
         }
+
         public Manzana (string color, double peso, string provincia) : base(color, peso)
         {
             this._provinciaOrigen = provincia;
