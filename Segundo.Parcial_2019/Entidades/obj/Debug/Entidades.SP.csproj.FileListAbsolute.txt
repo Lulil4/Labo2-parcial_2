@@ -1,0 +1,6 @@
+D:\###Morel\Segundo.Parcial_2019\Entidades\bin\Debug\Entidades.dll
+D:\###Morel\Segundo.Parcial_2019\Entidades\bin\Debug\Entidades.pdb
+D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.dll
+D:\###Morel\Segundo.Parcial_2019\Entidades\obj\Debug\Entidades.pdb
