@@ -14,20 +14,9 @@ namespace Entidades.SP
         protected int capacidad;
         protected List<T> elementos;
         public EventoPrecio eventoPrecio;
-        public delegate void EventoPrecio(double precio, Cartuchera<T> cartuchera);
+        public delegate void EventoPrecio(object sender, EventArgs e);
 
-        public static void Manejador(double precio, Cartuchera<T> cartuchera)
-       {
-            StringBuilder sb = new StringBuilder();
 
-             sb.AppendLine(DateTime.Now.ToString());
-               sb.AppendLine("El precio supera los $55, con un precio de: " + precio);
-
-            StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\tickets.log", true);
-
-            sw.Close();
-
-        }
         public List<T> Elementos
         {
             get
@@ -45,10 +34,6 @@ namespace Entidades.SP
                 foreach(T elemento in this.elementos)
                 {
                     precioTotal += elemento.precio;
-                    //if (precioTotal > 85)
-                    //{
-                    //    this.eventoPrecio(precioTotal, this);
-                    //}
                 }
 
                 return precioTotal;
@@ -87,15 +72,14 @@ namespace Entidades.SP
 
         public static Cartuchera<T> operator +(Cartuchera<T> cartuchera, T elemento)
         {
+
             if (cartuchera.elementos.Count < cartuchera.capacidad)
             {
-                if (elemento.precio > 85)
+                cartuchera.Elementos.Add(elemento);
+
+                if (cartuchera is Cartuchera<Goma> && cartuchera.PrecioTotal > 85)
                 {
-                    cartuchera.eventoPrecio(elemento.precio, cartuchera);
-                }
-                else
-                {
-                    cartuchera.Elementos.Add(elemento);
+                    cartuchera.eventoPrecio(cartuchera, new EventArgs());
                 }
             }
             else

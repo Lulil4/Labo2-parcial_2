@@ -7,18 +7,31 @@ using System.IO;
 namespace Entidades.SP
 {
    public  class Ticketadora
-    {/*
-        public static bool ImprimirTicket(double precio, Cartuchera<T> cartuchera)
+    {
+        public static bool ImprimirTicket(Cartuchera<Goma> cartuchera)
         {
-            StringBuilder sb = new StringBuilder();
+            bool seEscribio = false;
 
-            sb.AppendLine(DateTime.Now.ToString());
-            sb.AppendLine("El precio supera los $55, con un precio de: " + precio);
+            try
+            {
+                StringBuilder sb = new StringBuilder();
 
-            StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\tickets.log", true);
+                sb.AppendLine(DateTime.Now.ToString());
+                sb.AppendLine("El precio supera los $85, con un precio de: $" + cartuchera.PrecioTotal);
 
-            sw.Close();
-        }*/
+                using (StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\tickets.log", true))
+                {
+                    sw.WriteLine(sb);
+                }
+                seEscribio = true;
+            }
+            catch
+            {
+
+            }
+
+            return seEscribio;
+        }
 
     }
 }

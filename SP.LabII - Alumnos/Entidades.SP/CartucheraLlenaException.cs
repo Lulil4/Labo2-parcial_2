@@ -10,10 +10,5 @@ namespace Entidades.SP
         public CartucheraLlenaException() : base("La cartuchera esta llena")
         {
         }
-
-        public string InformarNovedad()
-        {
-            return "La cartuchera esta llena!!";
-        }
     }
 }

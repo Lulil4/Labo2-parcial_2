@@ -39,9 +39,9 @@
             this.btnPunto8 = new System.Windows.Forms.Button();
             this.btnPunto9 = new System.Windows.Forms.Button();
             this.btnPunto10 = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.txtVisorTickets = new System.Windows.Forms.TextBox();
             this.btnVerLog = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -153,10 +153,6 @@
             this.btnPunto10.UseVisualStyleBackColor = true;
             this.btnPunto10.Click += new System.EventHandler(this.btnPunto10_Click);
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // txtVisorTickets
             // 
             this.txtVisorTickets.Location = new System.Drawing.Point(482, 41);
@@ -174,6 +170,10 @@
             this.btnVerLog.Text = "Ver log de tickets";
             this.btnVerLog.UseVisualStyleBackColor = true;
             this.btnVerLog.Click += new System.EventHandler(this.btnVerLog_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // SegundoParcial
             // 
@@ -215,9 +215,9 @@
         private System.Windows.Forms.Button btnPunto8;
         private System.Windows.Forms.Button btnPunto9;
         private System.Windows.Forms.Button btnPunto10;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox txtVisorTickets;
         private System.Windows.Forms.Button btnVerLog;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

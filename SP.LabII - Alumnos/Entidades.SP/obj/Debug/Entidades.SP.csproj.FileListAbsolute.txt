@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\SP.LabII - Alumnos\Entidades.SP\bin\Debug\Entidades.SP.d
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\Entidades.SP\bin\Debug\Entidades.SP.pdb
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.dll
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\bin\Debug\Entidades.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\bin\Debug\Entidades.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\Entidades.SP\obj\Debug\Entidades.SP.pdb

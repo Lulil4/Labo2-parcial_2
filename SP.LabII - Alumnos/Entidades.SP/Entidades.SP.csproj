@@ -42,6 +42,7 @@
     <Compile Include="Cartuchera.cs" />
     <Compile Include="CartucheraLlenaException.cs" />
     <Compile Include="ETipoTrazo.cs" />
+    <Compile Include="ExtensionInformarNovedad.cs" />
     <Compile Include="Goma.cs" />
     <Compile Include="IDeserializa.cs" />
     <Compile Include="ISerializa.cs" />

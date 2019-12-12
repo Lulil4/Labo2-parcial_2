@@ -22,3 +22,16 @@ C:\Users\alumno\Desktop\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\WindowsForm
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\Entidades.SP.dll
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\Entidades.SP.pdb
 C:\Users\alumno\Desktop\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CopyComplete
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\WindowsForms.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\Entidades.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\Entidades.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csprojAssemblyReference.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.SegundoParcial.resources
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.Properties.Resources.resources
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.GenerateResource.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CopyComplete
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.exe
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\SP.LabII - Alumnos\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe.config
