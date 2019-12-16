@@ -227,10 +227,7 @@ namespace WindowsForms.SP
 
                 this.da = new SqlDataAdapter(comando, this.cn);
 
-
                 this.da.Fill(this.dt);
-
-                this.da.SelectCommand = new SqlCommand(comando, this.cn);
 
                 this.dataGridView1.DataSource = this.dt;
             }
@@ -296,9 +293,8 @@ namespace WindowsForms.SP
             this.da.UpdateCommand.Parameters.Add("@u3", SqlDbType.VarChar, 50, "tipo");
             //Modificar el ultimo registro del dataTable
 
-            DataRow fila = this.dt.Rows[this.dt.Rows.Count-1];
-            fila[1] = "barrilito";
-            fila[2] = 72;
+            this.dt.Rows[this.dt.Rows.Count - 1]["marca"] = "barrilito";
+            this.dt.Rows[this.dt.Rows.Count - 1]["precio"] = 72;
         }
 
         //Sincronizar los cambios (sufridos en el dataTable) con la base de datos
