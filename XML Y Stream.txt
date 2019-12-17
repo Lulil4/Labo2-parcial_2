@@ -1,0 +1,69 @@
+		
+		///Serializacion xml
+		///Writer implicito
+		public bool Xml()
+        {
+            bool aux = false;
+            XmlSerializer ser = new XmlSerializer(typeof("variable"));
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(path, false))
+                {
+                    ser.Serialize(writer, this);
+                    aux = true;
+                }
+            }
+            catch (Exception)
+            {
+            }
+            return aux;
+        }
+		///Reader explicito
+		bool IDeserializa.Xml(out "variable" "variable")
+        {
+            bool Flag = false;
+            XmlSerializer ser = new XmlSerializer(typeof(Lapiz));
+            "variable" aux = new "variable"();
+            try
+            {
+                using (StreamReader reader = new StreamReader(Path))
+                {
+                    aux = ("variable")ser.Deserialize(reader);
+                    Flag = true;
+                }
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                "variable" = aux;
+            }
+            return Flag;
+        }
+
+		/// Stream
+		/// StreamWriter
+			try
+            {
+                using (StreamWriter writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\" + ""nombre".txt", true))
+                {
+                    writer.WriteLine();
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+		/// StreamReader
+			try
+            {
+                using (StreamReader reader = new StreamReader())
+                {
+                    "variable"=reader.ReadLine();
+                }
+            }
+            catch (Exception)
+            {
+            }

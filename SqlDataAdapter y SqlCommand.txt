@@ -1,0 +1,122 @@
+///SqlDataAdapter
+						this.cn = new SqlConnection(Properties.Settings.Default.Conexion);
+
+			//Configurar el SqlDataAdapter (y su selectCommand)
+						this.da = new SqlDataAdapter("select * from "NombreTabla,cn);
+						this.da.Fill(this.dt);
+			//Configurar el insertCommand del SqlDataAdapter y sus parametros
+						this.da.InsertCommand= new SqlCommand("insert into "NombreTabla" values(@p1, @p2, @p3)",cn);
+						this.da.InsertCommand.Parameters.Add("@p1", SqlDbType."tipo", 50, columna);
+						this.da.InsertCommand.Parameters.Add("@p2", SqlDbType."tipo", 50, columna);
+						this.da.InsertCommand.Parameters.Add("@p3", SqlDbType.VarChar, 50, columna);
+			//Configurar el updateCommand del SqlDataAdapter y sus parametros
+						this.da.UpdateCommand = new SqlCommand("update "NombreTabla" set "columna" = @p1, "columna" = @p2 where id = @p3", cn);
+						this.da.UpdateCommand.Parameters.Add("@p1", SqlDbType."tipo", 50, columna);
+						this.da.UpdateCommand.Parameters.Add("@p2", SqlDbType."tipo", 50, columna);
+						this.da.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 50, columna);
+			//Configurar el deleteCommand del SqlDataAdapter y sus parametros
+						this.da.DeleteCommand = new SqlCommand("delete from "NombreTabla" where id = @p1", cn);
+						this.da.DeleteCommand.Parameters.Add("@p1", SqlDbType.Int, 50, "id");
+			//Sincronizar el SqlDataAdapter con la BD
+						this.da.Update(this.dt);
+
+///SqlCommand
+///Delete		
+		using(sqlconnection cn = new SqlConnection(Properties.Settings.Default.Conexion))
+		{
+			try
+			{
+				cn.open();
+				using(SqlCommand command = new SqlCommand("DELETE FROM "NombreTabla" WHERE id=" + id, connection))
+				{
+					command.ExecuteNonQuery();
+				}
+			}
+			catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error al eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+			
+		}
+///Insert
+		using(sqlconnection cn = new SqlConnection(Properties.Settings.Default.Conexion))
+		{
+			try
+			{
+				cn.open();
+				using(SqlCommand command = new SqlCommand(String.Format("INSERT INTO"NombreTabla"("Columnas") VALUES("Valores")"), connection))
+				{
+					command.ExecuteNonQuery();
+				}
+			}
+			catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error al eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+		}
+///Select
+		///Adaptar el reader para la situacion
+		using(sqlconnection cn = new SqlConnection(Properties.Settings.Default.Conexion))
+		{
+			try
+			{
+				cn.open();
+				using(SqlCommand command = new SqlCommand("select * from "NombreTabla), connection))
+				{
+					using (SqlDataReader reader = command.ExecuteReader())
+					{
+						while(reader.Read!=false)
+						{
+							/*BORRAR ESTO ANTES DE ENTREGAR
+							aux= new "Objecto"(reader[columna]);
+							*/
+						}
+					}
+				}
+			}
+			catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error al eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+		}
+///Update
+		using(sqlconnection cn = new SqlConnection(Properties.Settings.Default.Conexion))
+		{
+			try
+			{
+				cn.open();
+				using(SqlCommand command = new SqlCommand("update "NombreTabla" set "columna" = "Variable", "columna" = "Variable" where id = "ID"", connection))
+				{
+					command.ExecuteNonQuery();
+				}
+			}
+			catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error al eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+		}
+
+
+///Caso particular del Segundo parcial
+		StringBuilder comandoTexto = new StringBuilder();
+		
+		comandoTexto.AppendLine("INSERT INTO "NombreTabla" VALUES("Variables")","Variables");
+        comandoTexto.AppendLine("INSERT INTO "NombreTabla" VALUES("Variables")","Variables");
+        comandoTexto.AppendLine("INSERT INTO "NombreTabla" VALUES("Variables")","Variables");
+
+		using(sqlconnection cn = new SqlConnection(Properties.Settings.Default.Conexion))
+		{
+			try
+			{
+				cn.open();
+				using(SqlCommand command = new SqlCommand(comandoTexto), connection))
+				{
+					command.ExecuteNonQuery();
+				}
+			}
+			catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error al eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+		}
+	
