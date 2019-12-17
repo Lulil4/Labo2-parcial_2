@@ -1,0 +1,7 @@
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll.config
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.pdb
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csprojAssemblyReference.cache
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.dll
+C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.pdb
