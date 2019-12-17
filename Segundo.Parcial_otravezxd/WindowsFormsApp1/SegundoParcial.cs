@@ -152,7 +152,7 @@ namespace SP
         //la fecha (con hora, minutos y segundos) y el total del precio del cajón en un nuevo renglón.
         private void btnPunto5_Click(object sender, EventArgs e)
         {
-            Manejadora m = new Manejadora();
+            Manejadora<Banana> m = new Manejadora<Banana>();
             //Asociar manejador de eventos y crearlo en la clase Manejadora (de instancia).
 
             //this.c_bananas._eventoPrecio += new Cajon<Banana>.EventoPrecio(m.ManejadorEventoPrecio);

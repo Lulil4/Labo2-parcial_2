@@ -5,3 +5,10 @@ C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csproj.CoreCompileInputs.cache
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.dll
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll.config
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csprojAssemblyReference.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.pdb

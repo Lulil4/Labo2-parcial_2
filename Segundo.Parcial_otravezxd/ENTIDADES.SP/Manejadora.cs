@@ -8,13 +8,13 @@ using System.IO;
 
 namespace ENTIDADES.SP
 {
-    public class Manejadora
+    public class Manejadora<Fruta>
     {
         public void ManejadorEventoPrecio(object sender, EventArgs e)
         {
             try
             {
-                using (StreamWriter escritor = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\PrecioSuperado.txt"))
+                using (StreamWriter escritor = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\PrecioSuperado.txt", true))
                 {
                     escritor.WriteLine(DateTime.Now);
                     escritor.WriteLine("Precio total del cajon: " + ((Cajon<Fruta>)sender).PrecioTotal);

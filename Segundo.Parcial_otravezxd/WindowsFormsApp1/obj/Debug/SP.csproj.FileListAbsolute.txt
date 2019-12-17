@@ -22,3 +22,17 @@ C:\Users\lucia\Desktop\Segundo.Parcial_20190\WindowsFormsApp1\bin\Debug\ENTIDADE
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.pdb
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.dll.config
 C:\Users\lucia\Desktop\Segundo.Parcial_20190\WindowsFormsApp1\obj\Debug\SP.csproj.CopyComplete
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\SP.exe.config
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\SP.exe
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.dll
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.pdb
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.dll.config
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.csprojAssemblyReference.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.SegundoParcial.resources
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.Properties.Resources.resources
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.csproj.GenerateResource.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.csproj.CopyComplete
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.exe
+C:\Users\lucia\Desktop\labo2parcial2.sinhacer\Segundo.Parcial_otravezxd\WindowsFormsApp1\obj\Debug\SP.pdb
